@@ -44,6 +44,7 @@ public class BookInventoryImpl implements BookInventory{
 
             /** convert JSON file contents to a map */
         } catch (IOException | NullPointerException ioe ){
+            logger.debug(ioe.getMessage());
             ioe.printStackTrace();
         }
 
@@ -90,6 +91,7 @@ public class BookInventoryImpl implements BookInventory{
 
         }catch(IOException ioe){
             logger.error("error accessing the inventory file");
+            logger.debug(ioe.getMessage());
             ioe.printStackTrace();
         }
     }
@@ -157,10 +159,12 @@ public class BookInventoryImpl implements BookInventory{
             fileName =properties.getProperty(fileKey);
             fileInput.close();
 
-        } catch (FileNotFoundException e) {
+        } catch (FileNotFoundException fnfe) {
             logger.error("error, the file storage.properties does not exist");
+            logger.debug(fnfe.getMessage());
         } catch (IOException e) {
             logger.error("error,  reading the file storage.properties");
+            logger.debug(e.getMessage());
         }
         return fileName;
     }
