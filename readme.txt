@@ -19,4 +19,4 @@ upon completion the system will then displays the:
 "Total Discount applied to the purchased"
 "Total price after discount"
 
-Also to run the code independently from the IDE, the goal "fatJar"  in gradle can be run to create an executable jar file.
+Also to run the code independently without the IDE, the goal "fatJar"  in gradle can be run to create an executable jar file.
