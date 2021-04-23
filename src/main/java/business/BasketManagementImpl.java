@@ -8,37 +8,12 @@ import java.util.List;
 public class BasketManagementImpl implements BasketManagement{
 
 
-    private List<Book> basketContents = new LinkedList<>();
-    private double totalPrice;
-    private double totalDiscount;
-    private double discountedPrice;
+    private List<Book> basketContents = new LinkedList<>();;
 
-
-    /**
-     * return the total price before discount
-     * applied
-     * @return
-     */
-    public double getTotalPrice() {
-        return totalPrice;
+    public List<Book> getBasketContents() {
+        return basketContents;
     }
 
-    /**
-     * returns total discount applied to the basket
-     * @return
-     */
-    public double getTotalDiscount() {
-        return totalDiscount;
-    }
-
-    /**
-     * trturns total price
-     * after disount is applied
-     * @return
-     */
-    public double getDiscountedPrice() {
-        return discountedPrice;
-    }
 
     /**
      * Adds a new book to the basket

@@ -1,4 +1,6 @@
 import beans.Book;
+import business.BasketManagement;
+import business.BasketManagementImpl;
 import business.Checkout;
 import business.CheckoutImpl;
 import data.BookInventory;
@@ -15,6 +17,7 @@ public class CustomerCheckout {
         List<Book> basket = new LinkedList<>();
         BookInventory bookInventory= new BookInventoryImpl();
         Checkout checkout = new CheckoutImpl();
+        BasketManagement basketManagement = new BasketManagementImpl();
 
         double totalPrice = 0;
         double combinedDiscount = 0;
@@ -41,8 +44,7 @@ public class CustomerCheckout {
                 System.out.print( book.getName());
                 System.out.println("\t\t" + book.getPrice());
                 totalPrice = totalPrice + book.getPrice();
-                basket.add(book);
-
+                basketManagement.addBookToBasket(book);
 
                 System.out.println("Next bar code (or 'end' to finish) :\t ");
                 barCode = scanner.nextLine();
@@ -50,7 +52,7 @@ public class CustomerCheckout {
 
         }
 
-        finalPrice = checkout.calculateTotalPrice(basket);
+        finalPrice = checkout.calculateTotalPrice(basketManagement.getBasketContents());
         combinedDiscount = totalPrice - finalPrice;
 
 

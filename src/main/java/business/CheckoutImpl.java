@@ -2,6 +2,8 @@ package business;
 
 import beans.Book;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.Calendar;
 import java.util.LinkedList;
@@ -113,11 +115,19 @@ public class CheckoutImpl implements Checkout{
     }
 
     private double getTwoDecimalValue(double priceIn){
+
+
+        BigDecimal bd = new BigDecimal(Double.toString(priceIn));
+        bd = bd.setScale(2, RoundingMode.HALF_DOWN);
+        return bd.doubleValue();
+
+       /*
         DecimalFormat decimalformat = new DecimalFormat("#.##");
         String num = String.valueOf(priceIn);
         String formatedStr = decimalformat.format(num);
         double price = Double.parseDouble(formatedStr);
         return price;
+        */
     }
 
 }

@@ -46,18 +46,22 @@ public class CheckoutTst {
 
     @Test
     public void testGetScientificPrice(){
-       // double price = chechout.calculateTotalPrice(basket_3);
-       // assert(price == 198.9);
+       double price = chechout.calculateTotalPrice(basket_3);
+       assert(price == 200.9);
     }
 
     @Test
     public void testAntiquePrice(){
         double price = chechout.calculateTotalPrice(basket_2);
-        //assert(price == 198.9);
+        assert(price == 137.6);
     }
 
     @Test
     public void testCombinedPrice(){
+        double price = chechout.calculateTotalPrice(basket_4);
+        assert(price == 303.9);
 
     }
+
+
 }
