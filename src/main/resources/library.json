@@ -1,0 +1,155 @@
+[
+
+  {
+    "barCode": "123AE",
+    "name": "Origin of Species",
+    "author": "Charles Darwin",
+    "price": 19.0,
+    "yearOfPublish": 1953,
+    "scienceIndex": 4
+  },
+  {
+    "barCode": "14T5AE",
+    "name": "Wealth of Nation",
+    "author": "Adam Smith",
+    "price": 21.0,
+    "yearOfPublish": 1953,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "2F43G1",
+    "name": "Shah Naameh",
+    "author": "Ferdosi",
+    "price": 22.0,
+    "yearOfPublish": 1342,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "345AR3",
+    "name": "Prince ",
+    "author": "Niccolo Machiavelli",
+    "price": 30.0,
+    "yearOfPublish": 1892,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "3G87U2M",
+    "name": "Computer Networks",
+    "author": "Douglas E Comer",
+    "price": 18.0,
+    "yearOfPublish": 1932,
+    "scienceIndex": 2
+  },
+  {
+    "barCode": "43R6G7D",
+    "name": "Omar Khayyam",
+    "author": "Robaa-eeyyat",
+    "price": 27.0,
+    "yearOfPublish": 1287,
+    "scienceIndex": 0
+  },
+  {
+    "barCode": "46Q38L2",
+    "name": "A century of War",
+    "author": "Wiliam Engdahl",
+    "price": 33.0,
+    "yearOfPublish": 1953,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "4S67H39O",
+    "name": "Welcome to the Universe",
+    "author": "Neil DeGrass Tyson books",
+    "price": 19.0,
+    "yearOfPublish": 1983,
+    "scienceIndex": 5
+  },
+    {
+    "barCode": "56A6E",
+    "name": "David Copperfield",
+    "author": "Charles Dickens",
+    "price": 12.0,
+    "yearOfPublish": 1803,
+    "scienceIndex": 6
+  },
+  {
+    "barCode": "5CS45G3",
+    "name": "Further Engineering Mathematics",
+    "author": "K A Stroud",
+    "price": 15.0,
+    "yearOfPublish": 1953,
+    "scienceIndex": 3
+  },
+  {
+    "barCode": "7YHT2323",
+    "name": "Romeo and Juliet",
+    "author": "Wiliam Shakespeare",
+    "price": 53.0,
+    "yearOfPublish": 1989,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "87U54R4T",
+    "name": "Java",
+    "author": "Walter Savitch",
+    "price": 23.0,
+    "yearOfPublish": 1983,
+    "scienceIndex": 2
+  },
+  {
+    "barCode": "8A87U5H",
+    "name": "Answer To History",
+    "author": "Mohammad Reza Pahlavi",
+    "price": 32.0,
+    "yearOfPublish": 1973,
+    "scienceIndex": 1
+  },
+    {
+    "barCode": "8T3F435A",
+    "name": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "price": 33.0,
+    "yearOfPublish": 1983,
+    "scienceIndex": 6
+  },
+  {
+    "barCode": "A34R54T1",
+    "name": "Persian Nights",
+    "author": "Diane Johnson",
+    "price": 26.0,
+    "yearOfPublish": 1934,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "AS2F56V46",
+    "name": "Civilisation",
+    "author": "Niall Ferguson",
+    "price": 45.0,
+    "yearOfPublish": 1989,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "ASE4TRF7",
+    "name": "Cyropaedia",
+    "author": "Xenphone",
+    "price": 34.6,
+    "yearOfPublish": 1995,
+    "scienceIndex": 1
+  },
+  {
+    "barCode": "D435R65L",
+    "name": "Parallel Worlds",
+    "author": "Michio Kaku",
+    "price": 25.0,
+    "yearOfPublish": 1983,
+    "scienceIndex": 6
+  },
+  {
+    "barCode": "Uh348K532",
+    "name": "Omar Khaayyam",
+    "author": "Algebra and Trigonometry",
+    "price": 65.0,
+    "yearOfPublish": 1276,
+    "scienceIndex": 8
+  }
+]
