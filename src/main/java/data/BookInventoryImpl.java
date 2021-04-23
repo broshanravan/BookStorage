@@ -89,6 +89,7 @@ public class BookInventoryImpl implements BookInventory{
             fileWriter.flush();
 
         }catch(IOException ioe){
+            logger.error("error accessing the inventory file");
             ioe.printStackTrace();
         }
     }
